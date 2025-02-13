@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function checkWin() {
-        if (score === 100) {
+        if (score === 35) {
             winMessage.textContent = "WOW! YOU FOUND THE HIDDEN MESSAGE! CLICK BELOW TO UNVEIL IT";
             winMessage.style.color = "#e60073";
             winMessage.style.fontSize = "18px";
